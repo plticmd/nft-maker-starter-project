@@ -29,9 +29,9 @@ https://nft-maker-starter-project-sage.vercel.app
 
 https://github.com/plticmd/nft-maker-starter-project.git
 
-アプリ２（リンクさせるつもりだったのでprivateで作ってしまいました。）
+アプリ２（publicでリポジトリ作りました。）
 
-https://github.com/GoAround-web3/image-gallery.git
+https://github.com/GoAround-web3/image-galleryb.git
 
 ・審査やテストのためにプロジェクトにアクセスする方法など
 
