@@ -7,19 +7,20 @@
     border: none;
     padding: 36px;
     border-radius: 10px;
-    box-shadow: 0px 0px 8px gray;
-    color: gray;
+    box-shadow: 0px 0px 200px rgb(17, 27, 213);
+    color: rgb(242, 246, 23);
   }
   
   .outerBox h2 {
-    font-weight: 600;
+    font-weight: 800;
     margin-top: 5px;
   }
   
   .nftUplodeBox {
-    border: 2px dashed #2d6395;
+    border: 2px dashed rgb(46, 14, 151);
     padding: 35px 60px;
     position: relative;
+    
   }
   
   .imageLogoAndText p {
@@ -34,4 +35,6 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
+    color:blueviolet
   }
+  

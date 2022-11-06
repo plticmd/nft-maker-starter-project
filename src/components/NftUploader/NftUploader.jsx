@@ -135,25 +135,34 @@ if (chainId !== goerliChainId) {
       {currentAccount === "" ? (
         renderNotConnectedContainer()
       ) : (
-        <p>If you choose image, you can mint your NFT</p>
+        <p>Just choose a file ➡︎ you can mint NFT</p>
       )}
       <div className="title">
         <h2>NFTアップローダー</h2>
+        <h3>mp.3もアップできる！</h3>
       </div>
+      
       <div className="nftUplodeBox">
         <div className="imageLogoAndText">
           <img src={ImageLogo} alt="imagelogo" />
-          <p>ここにドラッグ＆ドロップしてね</p>
+          <p>こちらへドラッグ＆ドロップ</p>
         </div>
-        <input className="nftUploadInput" multiple name="imageURL" type="file" accept=".jpg , .jpeg , .png" onChange={imageToNFT}  />
+        <input className="nftUploadInput" multiple name="imageURL" type="file" accept=".jpg , .jpeg , .png, .mp3" onChange={imageToNFT} />
       </div>
       <p>または</p>
       <Button variant="contained">
         ファイルを選択
-        <input className="nftUploadInput" type="file" accept=".jpg , .jpeg , .png" onChange={imageToNFT} />
+        <input className="nftUploadInput" type="file" accept=".jpg , .jpeg , .png , .mp3" onChange={imageToNFT} />
       </Button>
+      
+
+      <p>Next you need to do is "Go to<a href = "imageGallery/image-gallery/src/index.html">Gallery</a>and Web3Storage...😓”</p>
+
     </div>
+    
   );
 };
+
+
 
 export default NftUploader;
